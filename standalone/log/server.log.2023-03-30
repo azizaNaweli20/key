@@ -1,0 +1,449 @@
+2023-03-30 00:48:26,030 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-03-30 00:48:26,744 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-03-30 00:48:26,756 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-03-30 00:48:26,904 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-03-30 00:48:26,904 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot
+	java.io.tmpdir = C:\Users\essma\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php8.1.0;C:\ProgramData\ComposerSetup\bin;C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jre1.8.0_341\bin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\minikube;node_modules\yo\lib\cli.js;JAVA_HOME=C:\Users\essma\Downloads\Programs\OpenJDK17U-jdk_x64_windows_hotspot_17.0.6_10;C:\Program Files (x86)\SecurityXploded\LDAP Search;node_modules;node_modules\npm\bin\npm-cli;C:\Users\essma\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\essma\AppData\Roaming\nvm\v18.7.0\node_modules\@angular\cli\bin\ng;C:\Users\essma\AppData\Roaming\nvm\v18.7.0\node_modules\npm\bin\npm-cli;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\essma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\Program Files\JetBrains\PhpStorm 2022.1\bin;;C:\wamp\bin\php\php-8.1.9;C:\Users\essma\AppData\Local\ComposerSetup\bin;C:\Users\essma\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Docker Toolbox;C:\Users\essma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\essma\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\essma\AppData\Roaming\npm;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.6+10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.6+10
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.6+10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1
+	jboss.host.name = khaled
+	jboss.http.port = 9080
+	jboss.modules.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = khaled
+	jboss.qualified.host.name = khaled
+	jboss.server.base.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone
+	jboss.server.config.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log
+	jboss.server.name = khaled
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration/logging.properties
+	module.path = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\jboss-modules.jar -mp C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1 -Djboss.http.port=9080
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\bin
+	user.home = C:\Users\essma
+	user.language = fr
+	user.name = Khaled
+	user.script = 
+	user.timezone = Africa/Lagos
+	user.variant = 
+2023-03-30 00:48:26,913 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log\server.log -Dlogging.configuration=file:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration/logging.properties 
+2023-03-30 00:48:27,798 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-03-30 00:48:28,730 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-03-30 00:48:28,757 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.5.Final
+2023-03-30 00:48:28,765 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.5.Final
+2023-03-30 00:48:28,808 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-03-30 00:48:28,829 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-03-30 00:48:28,830 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-03-30 00:48:28,835 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-03-30 00:48:28,860 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-03-30 00:48:28,871 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-03-30 00:48:28,961 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-03-30 00:48:29,005 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-03-30 00:48:29,008 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-03-30 00:48:29,011 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-03-30 00:48:29,059 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-03-30 00:48:29,064 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2023-03-30 00:48:29,077 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-03-30 00:48:29,080 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-03-30 00:48:29,134 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-03-30 00:48:29,166 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-03-30 00:48:29,536 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2023-03-30 00:48:29,544 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2023-03-30 00:48:29,544 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2023-03-30 00:48:29,605 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.23.Final
+2023-03-30 00:48:29,613 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\deployments
+2023-03-30 00:48:29,620 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-03-30 00:48:29,629 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-03-30 00:48:29,631 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) Queuing requests.
+2023-03-30 00:48:29,635 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2023-03-30 00:48:29,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-03-30 00:48:29,691 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:9080
+2023-03-30 00:48:29,692 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-03-30 00:48:29,822 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-03-30 00:48:29,921 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-03-30 00:48:29,921 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-03-30 00:48:30,998 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-03-30 00:48:31,059 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-03-30 00:48:31,060 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-03-30 00:48:31,108 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-30 00:48:31,108 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-03-30 00:48:31,488 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started work cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-03-30 00:48:31,579 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-03-30 00:48:31,659 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started keys cache from keycloak container
+2023-03-30 00:48:31,659 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started users cache from keycloak container
+2023-03-30 00:48:31,659 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started realms cache from keycloak container
+2023-03-30 00:48:31,659 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-03-30 00:48:31,792 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-03-30 00:48:32,189 INFO  [org.keycloak.services] (ServerService Thread Pool -- 59) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-03-30 00:48:32,410 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 59) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-03-30 00:48:32,897 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-03-30 00:48:32,904 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-03-30 00:48:32,912 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-03-30 00:48:32,914 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 59) Node name: khaled, Site name: null
+2023-03-30 00:48:34,462 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 59) Database info: {databaseUrl=jdbc:h2:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-03-30 00:48:35,814 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-03-30 00:48:35,919 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.3.24.Final}
+2023-03-30 00:48:35,920 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2023-03-30 00:48:36,130 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-03-30 00:48:36,299 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 00:48:36,355 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2023-03-30 00:48:36,626 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 59) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-03-30 00:48:36,868 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 6.0.22.Final
+2023-03-30 00:48:37,876 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2023-03-30 00:48:39,250 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,251 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,252 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,252 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,252 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,252 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 00:48:39,333 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-03-30 00:48:39,408 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-03-30 00:48:39,440 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-03-30 00:48:39,442 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 13915ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-03-30 00:48:39,444 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-03-30 00:48:39,444 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-03-30 00:55:07,352 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (default task-1) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], connectionPooling=[false], usersDn=[o=XteUsers,dc=xtensus,dc=com], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1680099896], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-03-30 08:35:05,575 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-03-30 08:35:06,300 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-03-30 08:35:06,309 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-03-30 08:35:06,469 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-03-30 08:35:06,471 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot
+	java.io.tmpdir = C:\Users\essma\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\wamp64\bin\php\php8.1.0;C:\ProgramData\ComposerSetup\bin;C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files (x86)\Java\jre1.8.0_341\bin;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\minikube;node_modules\yo\lib\cli.js;JAVA_HOME=C:\Users\essma\Downloads\Programs\OpenJDK17U-jdk_x64_windows_hotspot_17.0.6_10;C:\Program Files (x86)\SecurityXploded\LDAP Search;node_modules;node_modules\npm\bin\npm-cli;C:\Users\essma\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\essma\AppData\Roaming\nvm\v18.7.0\node_modules\@angular\cli\bin\ng;C:\Users\essma\AppData\Roaming\nvm\v18.7.0\node_modules\npm\bin\npm-cli;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\essma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin;;C:\Program Files\JetBrains\PhpStorm 2022.1\bin;;C:\wamp\bin\php\php-8.1.9;C:\Users\essma\AppData\Local\ComposerSetup\bin;C:\Users\essma\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Docker Toolbox;C:\Users\essma\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\essma\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\essma\AppData\Roaming\npm;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.6+10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.6+10
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.6+10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1
+	jboss.host.name = khaled
+	jboss.http.port = 9080
+	jboss.modules.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = khaled
+	jboss.qualified.host.name = khaled
+	jboss.server.base.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone
+	jboss.server.config.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log
+	jboss.server.name = khaled
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration/logging.properties
+	module.path = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\jboss-modules.jar -mp C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1 -Djboss.http.port=9080
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\bin
+	user.home = C:\Users\essma
+	user.language = fr
+	user.name = Khaled
+	user.script = 
+	user.timezone = Africa/Lagos
+	user.variant = 
+2023-03-30 08:35:06,474 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log\server.log -Dlogging.configuration=file:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration/logging.properties 
+2023-03-30 08:35:07,393 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-03-30 08:35:08,287 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-03-30 08:35:08,312 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.5.Final
+2023-03-30 08:35:08,325 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.5.Final
+2023-03-30 08:35:08,358 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-03-30 08:35:08,371 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-03-30 08:35:08,380 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-03-30 08:35:08,386 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-03-30 08:35:08,402 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-03-30 08:35:08,414 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-03-30 08:35:08,488 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-03-30 08:35:08,543 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-03-30 08:35:08,549 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-03-30 08:35:08,549 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-03-30 08:35:08,590 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-03-30 08:35:08,590 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-03-30 08:35:08,603 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-03-30 08:35:08,617 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-03-30 08:35:08,674 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-03-30 08:35:08,679 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-03-30 08:35:09,069 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 24 IO threads with 192 max task threads based on your 12 available processors
+2023-03-30 08:35:09,073 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2023-03-30 08:35:09,073 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2023-03-30 08:35:09,139 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.23.Final
+2023-03-30 08:35:09,154 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-03-30 08:35:09,155 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) Queuing requests.
+2023-03-30 08:35:09,175 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-03-30 08:35:09,176 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2023-03-30 08:35:09,196 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\deployments
+2023-03-30 08:35:09,220 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-03-30 08:35:09,250 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:9080
+2023-03-30 08:35:09,251 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-03-30 08:35:09,373 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-03-30 08:35:09,462 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-03-30 08:35:09,462 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-03-30 08:35:10,473 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-03-30 08:35:10,539 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-03-30 08:35:10,541 INFO  [org.infinispan.CONFIG] (MSC service thread 1-6) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-03-30 08:35:10,596 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-30 08:35:10,596 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-03-30 08:35:10,992 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-03-30 08:35:11,100 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-03-30 08:35:11,100 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-03-30 08:35:11,100 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-03-30 08:35:11,101 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-03-30 08:35:11,101 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-03-30 08:35:11,101 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-03-30 08:35:11,101 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-03-30 08:35:11,101 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started work cache from keycloak container
+2023-03-30 08:35:11,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started keys cache from keycloak container
+2023-03-30 08:35:11,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started users cache from keycloak container
+2023-03-30 08:35:11,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realms cache from keycloak container
+2023-03-30 08:35:11,187 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-03-30 08:35:11,328 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-03-30 08:35:11,721 INFO  [org.keycloak.services] (ServerService Thread Pool -- 59) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-03-30 08:35:12,449 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 59) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-03-30 08:35:12,536 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-03-30 08:35:12,547 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-03-30 08:35:12,556 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-03-30 08:35:12,558 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 59) Node name: khaled, Site name: null
+2023-03-30 08:35:18,206 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 59) Database info: {databaseUrl=jdbc:h2:C:\Users\essma\Desktop\pfe-version-final\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-03-30 08:35:19,262 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-03-30 08:35:19,347 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.3.24.Final}
+2023-03-30 08:35:19,348 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2023-03-30 08:35:19,544 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-03-30 08:35:19,719 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 08:35:19,768 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2023-03-30 08:35:20,025 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 59) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-03-30 08:35:20,269 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 6.0.22.Final
+2023-03-30 08:35:21,280 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2023-03-30 08:35:22,603 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,604 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,605 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,605 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,605 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,606 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,606 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,606 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,606 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,606 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-03-30 08:35:22,707 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-03-30 08:35:22,778 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-03-30 08:35:22,815 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-03-30 08:35:22,817 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 17777ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-03-30 08:35:22,820 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-03-30 08:35:22,820 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-03-30 08:37:45,474 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (default task-1) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], connectionPooling=[false], usersDn=[o=XteUsers,dc=xtensus,dc=com], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1680099896], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-03-30 08:40:48,887 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=expired_code, restart_after_timeout=true, authSessionParentId=491e06f5-0b09-43f1-9af5-bb875044c74d, authSessionTabId=gURAn5KdZKU
+2023-03-30 09:09:50,355 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:4200/login/oauth2/code/oidc
+2023-03-30 09:10:33,147 WARN  [org.keycloak.events] (default task-6) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=9408d916-7d09-4543-aff3-e546b7a3ca22, client_auth_method=client-secret
+2023-03-30 09:10:51,992 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:4200/login/oauth2/code/oidc
+2023-03-30 09:13:26,640 WARN  [org.keycloak.events] (default task-6) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, code_id=04e451e4-ae29-41aa-a11f-c6a3e446fc6c, client_auth_method=client-secret
+2023-03-30 09:13:38,855 WARN  [org.keycloak.events] (default task-6) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=158a51f7-308f-458b-a5e1-3633b0e0d16a, client_auth_method=client-secret
+2023-03-30 09:14:09,444 WARN  [org.keycloak.events] (default task-6) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=9408d916-7d09-4543-aff3-e546b7a3ca22, client_auth_method=client-secret
+2023-03-30 09:25:31,980 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=42cf27cd-ecc3-410c-ad10-e24eed9a5b39, username=sundar, authSessionParentId=42cf27cd-ecc3-410c-ad10-e24eed9a5b39, authSessionTabId=cD_rhOH8JDA
+2023-03-30 09:35:22,387 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (Timer-2) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], usersDn=[o=XteUsers,dc=xtensus,dc=com], connectionPooling=[false], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1680165322], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-03-30 09:35:22,476 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 09:35:22,545 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 09:35:22,546 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Wed Mar 29 14:57:42 WAT 2023
+2023-03-30 09:35:22,583 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 09:35:22,617 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (Timer-2) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], connectionPooling=[false], usersDn=[o=XteUsers,dc=xtensus,dc=com], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1680165322], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-03-30 09:35:22,675 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 09:35:22,746 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 09:35:22,747 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 09:35:22,812 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 09:35:22,831 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 1 imported users, 3 updated users, 1 users failed sync! See server log for more details
+2023-03-30 10:28:00,302 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=expired_code, restart_after_timeout=true, authSessionParentId=7f653964-8eb0-4f48-bed1-9dcbd02db78f, authSessionTabId=98u-Ls2em_s
+2023-03-30 10:28:09,389 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=7f653964-8eb0-4f48-bed1-9dcbd02db78f, username=sundar, authSessionParentId=7f653964-8eb0-4f48-bed1-9dcbd02db78f, authSessionTabId=98u-Ls2em_s
+2023-03-30 10:35:22,434 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 10:35:22,488 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 10:35:22,490 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 09:35:22 WAT 2023
+2023-03-30 10:35:22,522 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 10:35:22,669 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 10:35:22,732 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 10:35:22,733 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 10:35:22,792 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 10:35:22,803 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details
+2023-03-30 10:36:20,135 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=483bd62c-b0f2-4918-801a-6bcbd643c064, username=sundar, authSessionParentId=483bd62c-b0f2-4918-801a-6bcbd643c064, authSessionTabId=7n6AANx49BA
+2023-03-30 10:39:07,411 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=45c02bab-376f-438a-a806-43404878f80b, username=sundar, authSessionParentId=45c02bab-376f-438a-a806-43404878f80b, authSessionTabId=um48t6b70YY
+2023-03-30 10:44:42,241 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=46b1b67c-4dd2-4d45-ba68-4bbc6842fd63, username=sundar, authSessionParentId=46b1b67c-4dd2-4d45-ba68-4bbc6842fd63, authSessionTabId=ikmroiqKgFU
+2023-03-30 10:51:52,151 WARN  [org.keycloak.events] (default task-6) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=c25e10c1-c4b2-4395-8668-280a23ffe744, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=1a996acb-f42b-4418-940b-7ec5faa582a5, username=sundar, authSessionParentId=1a996acb-f42b-4418-940b-7ec5faa582a5, authSessionTabId=trctbqS6Q6w
+2023-03-30 10:59:38,986 WARN  [org.keycloak.events] (default task-6) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2023-03-30 11:03:46,267 WARN  [org.keycloak.events] (default task-13) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=khaled, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:03:53,384 WARN  [org.keycloak.events] (default task-13) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=khaled, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:04:56,165 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=ec42c760-6377-44b9-9825-5129d796e497, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=ali, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:04:57,484 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=ec42c760-6377-44b9-9825-5129d796e497, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=ali, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:04:58,105 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=ec42c760-6377-44b9-9825-5129d796e497, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=ali, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:04:58,334 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=ec42c760-6377-44b9-9825-5129d796e497, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=2ae05a9a-2437-4a65-804e-10bff4ab8e12, username=ali, authSessionParentId=2ae05a9a-2437-4a65-804e-10bff4ab8e12, authSessionTabId=QGgLJjXw1N8
+2023-03-30 11:06:50,494 WARN  [org.keycloak.events] (default task-15) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=ceab83de-084b-4d2d-be54-36eb8465daaa, username=khaled, authSessionParentId=ceab83de-084b-4d2d-be54-36eb8465daaa, authSessionTabId=AYZaW4iJXpU
+2023-03-30 11:07:34,477 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=ceab83de-084b-4d2d-be54-36eb8465daaa, username=khaled, authSessionParentId=ceab83de-084b-4d2d-be54-36eb8465daaa, authSessionTabId=AYZaW4iJXpU
+2023-03-30 11:07:35,801 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=ceab83de-084b-4d2d-be54-36eb8465daaa, username=khaled, authSessionParentId=ceab83de-084b-4d2d-be54-36eb8465daaa, authSessionTabId=AYZaW4iJXpU
+2023-03-30 11:07:41,330 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=ceab83de-084b-4d2d-be54-36eb8465daaa, username=khaled, authSessionParentId=ceab83de-084b-4d2d-be54-36eb8465daaa, authSessionTabId=AYZaW4iJXpU
+2023-03-30 11:08:05,247 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=33bb122d-5046-4bd4-949d-738c5c042faa, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=ceab83de-084b-4d2d-be54-36eb8465daaa, username=5, authSessionParentId=ceab83de-084b-4d2d-be54-36eb8465daaa, authSessionTabId=AYZaW4iJXpU
+2023-03-30 11:35:22,439 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 11:35:22,489 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 11:35:22,489 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 10:35:22 WAT 2023
+2023-03-30 11:35:22,518 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 11:35:22,665 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 11:35:22,720 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 11:35:22,724 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 11:35:22,770 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 11:35:22,788 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details
+2023-03-30 11:48:41,839 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=cookie_not_found
+2023-03-30 11:49:18,309 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=cookie_not_found
+2023-03-30 11:49:32,078 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=127.0.0.1, error=invalid_redirect_uri, redirect_uri=http://localhost:4200/login/oauth2/code/oidc
+2023-03-30 12:01:27,947 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=3164a839-1fd9-4ba8-bfd4-d0f73e0de5eb, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/login/oauth2/code/oidc, code_id=1b942d26-2a11-4234-83f9-6c9e41f40684, username=lotfi, authSessionParentId=1b942d26-2a11-4234-83f9-6c9e41f40684, authSessionTabId=_dvdHkgpwoA
+2023-03-30 12:05:00,197 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_request
+2023-03-30 12:05:00,201 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_request
+2023-03-30 12:05:00,267 WARN  [org.keycloak.events] (default task-17) type=USER_INFO_REQUEST_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_token, auth_method=validate_access_token
+2023-03-30 12:05:00,268 WARN  [org.keycloak.events] (default task-17) type=USER_INFO_REQUEST_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_token, auth_method=validate_access_token
+2023-03-30 12:05:00,310 WARN  [org.keycloak.events] (default task-17) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_request
+2023-03-30 12:05:00,310 WARN  [org.keycloak.events] (default task-17) type=USER_INFO_REQUEST_ERROR, realmId=google, clientId=null, userId=null, ipAddress=127.0.0.1, error=invalid_token, auth_method=validate_access_token
+2023-03-30 12:22:06,753 WARN  [org.keycloak.events] (default task-17) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2023-03-30 12:35:22,444 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 12:35:22,493 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 12:35:22,496 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 11:35:22 WAT 2023
+2023-03-30 12:35:22,524 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 12:35:22,668 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 12:35:22,727 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 12:35:22,731 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 12:35:22,786 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 12:35:22,792 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details
+2023-03-30 13:21:01,865 WARN  [org.keycloak.events] (default task-22) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2023-03-30 13:35:22,449 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 13:35:22,502 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 13:35:22,502 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 12:35:22 WAT 2023
+2023-03-30 13:35:22,536 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 13:35:22,676 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 13:35:22,737 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 13:35:22,738 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 13:35:22,791 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 13:35:22,798 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details
+2023-03-30 14:35:22,466 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 14:35:22,516 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 14:35:22,518 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 13:35:22 WAT 2023
+2023-03-30 14:35:22,551 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 14:35:22,691 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 14:35:22,750 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 14:35:22,751 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 14:35:22,806 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 14:35:22,811 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details
+2023-03-30 15:35:22,466 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 15:35:22,510 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 15:35:22,519 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users from LDAP to local store: realm: jhipster, federation provider: ldap, last sync time: Thu Mar 30 14:35:22 WAT 2023
+2023-03-30 15:35:22,551 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync changed users finished: 0 imported users, 0 updated users
+2023-03-30 15:35:22,702 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteGroups' finished. Status: UserFederationSyncResult [ 0 imported groups, 7 updated groups, 0 removed groups ]
+2023-03-30 15:35:22,761 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 0 imported roles, 11 roles already exists in Keycloak ]
+2023-03-30 15:35:22,762 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users from LDAP to local store: realm: google, federation provider: ldap
+2023-03-30 15:35:22,820 WARN  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) User with ID 'd5e0aecc-21d2-4987-a622-80b725d8ca70' is not updated during sync as he already exists in Keycloak database but is not linked to federation provider 'ldap'
+2023-03-30 15:35:22,827 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync all users finished: 0 imported users, 4 updated users, 1 users failed sync! See server log for more details

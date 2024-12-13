@@ -1,0 +1,262 @@
+2023-08-01 00:13:28,182 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-08-01 00:13:28,229 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-08-01 00:13:28,229 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-08-01 00:13:28,313 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-08-01 00:13:28,313 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-08-01 00:13:28,329 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-08-01 00:13:28,329 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-08-01 00:13:28,329 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-08-01 00:13:28,351 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-08-01 00:13:28,351 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-08-01 00:13:28,367 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2023-08-01 00:13:28,382 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 141ms
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-08-01 00:13:28,398 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-08-01 00:13:28,414 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP listener default suspending
+2023-08-01 00:13:28,414 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-08-01 00:13:28,414 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:9080
+2023-08-01 00:13:28,414 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-08-01 00:13:28,414 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 76) Stopping cache manager null on null
+2023-08-01 00:13:28,414 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.14.Final stopping
+2023-08-01 00:13:28,414 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 78) Stopping cache manager null on null
+2023-08-01 00:13:28,429 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) stopped in 190ms
+2023-08-01 22:48:24,262 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-08-01 22:48:24,922 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-08-01 22:48:24,932 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-08-01 22:48:25,050 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-08-01 22:48:25,053 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Program Files\Java\jdk-11
+	java.io.tmpdir = C:\Users\Lenovo\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\download\JavaSetup8u371;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\Downloads\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.1.3\bin;;C:\Users\Lenovo\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.19+9-LTS-224
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://openjdk.java.net/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.19
+	java.version.date = 2023-04-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.19+9-LTS-224
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1
+	jboss.host.name = desktop-omkj3s1
+	jboss.http.port = 9080
+	jboss.modules.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-omkj3s1
+	jboss.qualified.host.name = desktop-omkj3s1
+	jboss.server.base.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone
+	jboss.server.config.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\log
+	jboss.server.name = desktop-omkj3s1
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\standalone\\configuration/logging.properties
+	module.path = C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\modules
+	org.jboss.boot.log.file = C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\standalone\\log\\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-11\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\jboss-modules.jar -mp C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\modules org.jboss.as.standalone -Djboss.home.dir=C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1 -Djboss.http.port=9080
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\bin
+	user.home = C:\Users\Lenovo
+	user.language = fr
+	user.name = Lenovo
+	user.script = 
+	user.timezone = GMT-1100
+	user.variant = 
+2023-08-01 22:48:25,056 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\standalone\\log\\server.log -Dlogging.configuration=file:C:\\Users\\Lenovo\\Desktop\\keycloak-16.1.1(configurer)\\keycloak-16.1.1\\keycloak-16.1.1\\standalone\\configuration/logging.properties 
+2023-08-01 22:48:25,900 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-08-01 22:48:26,611 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-08-01 22:48:26,631 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.8.5.Final
+2023-08-01 22:48:26,642 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.8.5.Final
+2023-08-01 22:48:26,687 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-08-01 22:48:26,698 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-08-01 22:48:26,699 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-08-01 22:48:26,707 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-08-01 22:48:26,738 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-08-01 22:48:26,749 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-08-01 22:48:26,786 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-08-01 22:48:26,825 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-08-01 22:48:26,851 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2023-08-01 22:48:26,855 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-08-01 22:48:26,858 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-08-01 22:48:26,868 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-08-01 22:48:26,936 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-08-01 22:48:26,959 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-08-01 22:48:26,989 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY01084: KeyStore C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-08-01 22:48:27,110 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-08-01 22:48:27,517 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-08-01 22:48:27,523 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-08-01 22:48:27,520 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-08-01 22:48:27,586 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2023-08-01 22:48:27,596 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2023-08-01 22:48:27,599 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-08-01 22:48:27,601 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.23.Final
+2023-08-01 22:48:27,654 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-08-01 22:48:27,661 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\deployments
+2023-08-01 22:48:27,672 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-08-01 22:48:27,701 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:9080
+2023-08-01 22:48:27,725 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-08-01 22:48:27,793 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-08-01 22:48:27,878 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-08-01 22:48:27,887 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-08-01 22:48:28,613 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-08-01 22:48:28,679 INFO  [org.infinispan.CONFIG] (MSC service thread 1-8) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-01 22:48:28,682 INFO  [org.infinispan.CONFIG] (MSC service thread 1-8) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-08-01 22:48:28,715 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-08-01 22:48:28,715 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-08-01 22:48:28,985 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-08-01 22:48:29,017 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-08-01 22:48:29,017 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-08-01 22:48:29,020 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started work cache from keycloak container
+2023-08-01 22:48:29,017 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-08-01 22:48:29,022 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-08-01 22:48:29,024 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-08-01 22:48:29,024 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-08-01 22:48:29,024 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-08-01 22:48:29,109 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-08-01 22:48:29,109 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realms cache from keycloak container
+2023-08-01 22:48:29,109 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started users cache from keycloak container
+2023-08-01 22:48:29,118 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started keys cache from keycloak container
+2023-08-01 22:48:29,266 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-08-01 22:48:29,617 INFO  [org.keycloak.services] (ServerService Thread Pool -- 59) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-08-01 22:48:30,239 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 59) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-08-01 22:48:30,257 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-08-01 22:48:30,264 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-08-01 22:48:30,272 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-08-01 22:48:30,273 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 59) Node name: desktop-omkj3s1, Site name: null
+2023-08-01 22:48:31,629 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 59) Database info: {databaseUrl=jdbc:h2:C:\Users\Lenovo\Desktop\keycloak-16.1.1(configurer)\keycloak-16.1.1\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-08-01 22:48:32,991 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-08-01 22:48:33,069 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.3.24.Final}
+2023-08-01 22:48:33,072 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2023-08-01 22:48:33,243 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-08-01 22:48:33,424 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-08-01 22:48:33,493 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2023-08-01 22:48:33,741 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 59) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-08-01 22:48:33,985 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 59) HV000001: Hibernate Validator 6.0.22.Final
+2023-08-01 22:48:35,170 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2023-08-01 22:48:36,896 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,912 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,913 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,914 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,915 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,916 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,917 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,917 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,918 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:36,918 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 59) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-08-01 22:48:37,005 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-08-01 22:48:37,101 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-08-01 22:48:37,150 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-08-01 22:48:37,153 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 13397ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-08-01 22:48:37,157 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-08-01 22:48:37,157 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-08-01 22:57:33,754 WARN  [org.keycloak.events] (default task-1) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=d4b635bc-04fa-4d5b-adf9-102b086c6ce5, client_auth_method=client-secret
+2023-08-01 22:58:07,856 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (default task-1) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], connectionPooling=[false], usersDn=[o=XteUsers,dc=xtensus,dc=com], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1690886218], vendor=[other], uuidLDAPAttribute=[entryUUID], connectionUrl=[ldap://localhost:389], allowKerberosAuthentication=[false], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-08-01 23:01:19,940 WARN  [org.keycloak.events] (default task-2) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=c884cdde-5a03-4f54-a1bf-42969f085d03, client_auth_method=client-secret
+2023-08-01 23:01:39,346 WARN  [org.keycloak.events] (default task-2) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=c884cdde-5a03-4f54-a1bf-42969f085d03, client_auth_method=client-secret
+2023-08-01 23:02:17,192 WARN  [org.keycloak.events] (default task-2) type=CODE_TO_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f20404e5-5171-47bb-8d3e-1dc20a2851dd, ipAddress=127.0.0.1, error=not_allowed, grant_type=authorization_code, code_id=6599295a-eba9-499d-85df-a90055e16157, client_auth_method=client-secret
+2023-08-01 23:48:36,557 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (Timer-2) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], connectionPooling=[false], usersDn=[o=XteUsers,dc=xtensus,dc=com], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], usernameLDAPAttribute=[uid], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], lastSync=[1690973316], vendor=[other], uuidLDAPAttribute=[entryUUID], connectionUrl=[ldap://localhost:389], allowKerberosAuthentication=[false], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], trustEmail=[false], priority=[0], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-08-01 23:48:36,694 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: java.lang.NullPointerException
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:345)
+	at java.base/java.util.TreeMap.get(TreeMap.java:277)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupTreeResolver.getParentsTree(GroupTreeResolver.java:116)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupTreeResolver.resolveGroupTree(GroupTreeResolver.java:53)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(GroupLDAPStorageMapper.java:183)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+
+2023-08-01 23:48:36,775 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (Timer-2) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {pagination=[true], fullSyncPeriod=[3600], usersDn=[o=XteUsers,dc=xtensus,dc=com], connectionPooling=[false], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], bindDn=[cn=admin,dc=xtensus,dc=com], changedSyncPeriod=[3600], usernameLDAPAttribute=[uid], lastSync=[1690973316], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], priority=[0], trustEmail=[false], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-08-01 23:48:37,057 INFO  [org.keycloak.storage.ldap.LDAPStorageProviderFactory] (Timer-2) Sync of federation mapper 'XteDroits' finished. Status: UserFederationSyncResult [ 3 imported roles, 9 roles already exists in Keycloak ]
+2023-08-01 23:48:37,175 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0062: Error occurred during sync of changed users: java.lang.NullPointerException
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:345)
+	at java.base/java.util.TreeMap.get(TreeMap.java:277)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupTreeResolver.getParentsTree(GroupTreeResolver.java:116)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupTreeResolver.resolveGroupTree(GroupTreeResolver.java:53)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.group.GroupLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(GroupLDAPStorageMapper.java:183)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncSince(LDAPStorageProviderFactory.java:489)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$3$1.call(UserStorageSyncManager.java:150)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$3$1.call(UserStorageSyncManager.java:143)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$3.run(UserStorageSyncManager.java:143)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncChangedUsers(UserStorageSyncManager.java:133)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$5.run(UserStorageSyncManager.java:219)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556)
+	at java.base/java.util.TimerThread.run(Timer.java:506)
+

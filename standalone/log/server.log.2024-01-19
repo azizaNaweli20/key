@@ -1,0 +1,1 @@
+2024-01-19 14:07:38,832 WARN  [org.keycloak.events] (default task-195) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=192.168.1.38, error=cookie_not_found

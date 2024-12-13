@@ -1,0 +1,1569 @@
+2023-10-31 08:18:26,214 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-10-31 08:18:29,658 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-10-31 08:18:29,664 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-10-31 08:18:29,918 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-10-31 08:18:29,919 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.3.1
+	java.io.tmpdir = C:\Users\XTE-SE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Microsoft\WindowsApps;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XTE-SERVEUR-JEE\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.3.1+2-LTS-6
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.3.1
+	java.version.date = 2022-04-22
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.3.1+2-LTS-6
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = D:\Postarion MS\keycloak-16.1.1
+	jboss.host.name = desktop-a8tdepi
+	jboss.http.port = 9080
+	jboss.modules.dir = D:\Postarion MS\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-a8tdepi
+	jboss.qualified.host.name = desktop-a8tdepi
+	jboss.server.base.dir = D:\Postarion MS\keycloak-16.1.1\standalone
+	jboss.server.config.dir = D:\Postarion MS\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = D:\Postarion MS\keycloak-16.1.1\standalone\log
+	jboss.server.name = desktop-a8tdepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Postarion MS\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties
+	module.path = D:\Postarion MS\keycloak-16.1.1\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar -mp D:\Postarion MS\keycloak-16.1.1\modules org.jboss.as.standalone -Djboss.home.dir=D:\Postarion MS\keycloak-16.1.1 -Djboss.http.port=9080
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = D:\Postarion MS\keycloak-16.1.1\bin
+	user.home = C:\Users\XTE-SERVEUR-JEE
+	user.language = fr
+	user.name = XTE-SERVEUR-JEE
+	user.script = 
+	user.timezone = Africa/Lagos
+	user.variant = 
+2023-10-31 08:18:29,925 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log -Dlogging.configuration=file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties 
+2023-10-31 08:18:34,555 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-10-31 08:18:39,590 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-31 08:18:39,671 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.5.Final
+2023-10-31 08:18:39,676 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.5.Final
+2023-10-31 08:18:39,749 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-10-31 08:18:39,749 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-31 08:18:39,758 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-10-31 08:18:39,765 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-10-31 08:18:39,896 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-10-31 08:18:39,908 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-10-31 08:18:39,936 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-31 08:18:40,206 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-10-31 08:18:40,289 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-10-31 08:18:40,303 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-31 08:18:40,362 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-10-31 08:18:40,492 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-2) WFLYELY00023: KeyStore file 'D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-10-31 08:18:40,770 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-10-31 08:18:40,784 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-31 08:18:40,784 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2023-10-31 08:18:40,807 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'D:\Postarion MS\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-31 08:18:41,518 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-10-31 08:18:41,563 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-10-31 08:18:41,562 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-10-31 08:18:41,750 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2023-10-31 08:18:41,752 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2023-10-31 08:18:41,754 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-10-31 08:18:41,775 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.23.Final
+2023-10-31 08:18:41,870 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:9080
+2023-10-31 08:18:41,899 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-10-31 08:18:41,916 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-10-31 08:18:42,165 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-10-31 08:18:42,165 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-10-31 08:18:43,207 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-10-31 08:18:43,222 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Postarion MS\keycloak-16.1.1\standalone\deployments
+2023-10-31 08:18:43,308 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-10-31 08:18:45,215 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-10-31 08:18:45,325 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:18:45,326 INFO  [org.infinispan.CONFIG] (MSC service thread 1-5) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:18:45,340 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-10-31 08:18:45,340 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-10-31 08:18:45,587 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started work cache from keycloak container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-10-31 08:18:45,631 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-10-31 08:18:45,638 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-10-31 08:18:45,638 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-10-31 08:18:45,679 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-10-31 08:18:45,679 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started realms cache from keycloak container
+2023-10-31 08:18:45,679 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started keys cache from keycloak container
+2023-10-31 08:18:45,679 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started users cache from keycloak container
+2023-10-31 08:18:46,741 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-10-31 08:18:47,363 INFO  [org.keycloak.services] (ServerService Thread Pool -- 63) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-10-31 08:18:47,670 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 63) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-10-31 08:18:48,581 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-10-31 08:18:48,588 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-10-31 08:18:48,595 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-10-31 08:18:48,596 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 63) Node name: desktop-a8tdepi, Site name: null
+2023-10-31 08:18:55,079 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 63) Database info: {databaseUrl=jdbc:h2:D:\Postarion MS\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-10-31 08:18:56,327 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-10-31 08:18:56,439 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.3.24.Final}
+2023-10-31 08:18:56,441 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2023-10-31 08:18:56,826 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-10-31 08:18:56,971 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-31 08:18:57,015 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2023-10-31 08:18:57,288 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 63) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-10-31 08:18:57,562 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 63) HV000001: Hibernate Validator 6.0.22.Final
+2023-10-31 08:18:59,356 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 63) HHH000397: Using ASTQueryTranslatorFactory
+2023-10-31 08:19:05,012 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,014 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,015 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,015 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,017 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,017 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,018 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,020 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,021 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,021 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 63) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:19:05,512 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-10-31 08:19:06,512 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-10-31 08:19:06,584 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-31 08:19:06,586 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 47373ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-10-31 08:19:06,589 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-10-31 08:19:06,590 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-10-31 08:19:23,302 WARN  [org.keycloak.events] (default task-2) type=LOGIN_ERROR, realmId=master, clientId=security-admin-console, userId=e5ab46aa-e577-4525-a496-84f021f30ff5, ipAddress=127.0.0.1, error=invalid_user_credentials, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9080/auth/admin/master/console/, code_id=8da47230-bf23-41f9-9403-e345b7dbfcf8, username=admin, authSessionParentId=8da47230-bf23-41f9-9403-e345b7dbfcf8, authSessionTabId=MYaEDjtPq9g
+2023-10-31 08:35:03,663 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-10-31 08:35:03,665 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-10-31 08:35:03,667 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-10-31 08:35:03,700 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-10-31 08:35:03,700 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-10-31 08:35:03,700 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-10-31 08:35:03,701 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2023-10-31 08:35:03,702 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 4) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-10-31 08:35:03,711 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2023-10-31 08:35:03,715 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-10-31 08:35:03,715 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 30ms
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-10-31 08:35:03,718 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-10-31 08:35:03,719 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-10-31 08:35:03,719 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-10-31 08:35:03,719 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-10-31 08:35:03,720 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-10-31 08:35:03,723 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-10-31 08:35:03,723 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-10-31 08:35:03,724 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-10-31 08:35:03,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTP listener default suspending
+2023-10-31 08:35:03,729 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 4) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-10-31 08:35:03,729 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:9080
+2023-10-31 08:35:03,729 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 72) Stopping cache manager null on null
+2023-10-31 08:35:03,732 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 2.2.14.Final stopping
+2023-10-31 08:35:03,732 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 71) Stopping cache manager null on null
+2023-10-31 08:35:03,743 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) stopped in 54ms
+2023-10-31 08:35:14,074 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-10-31 08:35:14,381 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-10-31 08:35:14,386 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-10-31 08:35:14,452 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-10-31 08:35:14,453 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.3.1
+	java.io.tmpdir = C:\Users\XTE-SE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Microsoft\WindowsApps;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XTE-SERVEUR-JEE\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.3.1+2-LTS-6
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.3.1
+	java.version.date = 2022-04-22
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.3.1+2-LTS-6
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = D:\Postarion MS\keycloak-16.1.1
+	jboss.host.name = desktop-a8tdepi
+	jboss.http.port = 9080
+	jboss.modules.dir = D:\Postarion MS\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-a8tdepi
+	jboss.qualified.host.name = desktop-a8tdepi
+	jboss.server.base.dir = D:\Postarion MS\keycloak-16.1.1\standalone
+	jboss.server.config.dir = D:\Postarion MS\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = D:\Postarion MS\keycloak-16.1.1\standalone\log
+	jboss.server.name = desktop-a8tdepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Postarion MS\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties
+	module.path = D:\Postarion MS\keycloak-16.1.1\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar -mp D:\Postarion MS\keycloak-16.1.1\modules org.jboss.as.standalone -Djboss.home.dir=D:\Postarion MS\keycloak-16.1.1 -Djboss.http.port=9080 -b 0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = D:\Postarion MS\keycloak-16.1.1\bin
+	user.home = C:\Users\XTE-SERVEUR-JEE
+	user.language = fr
+	user.name = XTE-SERVEUR-JEE
+	user.script = 
+	user.timezone = Africa/Lagos
+	user.variant = 
+2023-10-31 08:35:14,454 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log -Dlogging.configuration=file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties 
+2023-10-31 08:35:14,856 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-10-31 08:35:15,236 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-31 08:35:15,244 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.5.Final
+2023-10-31 08:35:15,247 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.5.Final
+2023-10-31 08:35:15,273 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-31 08:35:15,273 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-10-31 08:35:15,282 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-10-31 08:35:15,293 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-31 08:35:15,293 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-10-31 08:35:15,304 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-10-31 08:35:15,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-10-31 08:35:15,394 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-10-31 08:35:15,400 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-10-31 08:35:15,402 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-10-31 08:35:15,407 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-10-31 08:35:15,431 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY00023: KeyStore file 'D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-10-31 08:35:15,447 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-31 08:35:15,452 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-31 08:35:15,465 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-4) WFLYELY01084: KeyStore D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-10-31 08:35:15,474 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'D:\Postarion MS\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-31 08:35:15,593 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-10-31 08:35:15,606 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-10-31 08:35:15,610 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-10-31 08:35:15,638 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2023-10-31 08:35:15,639 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-10-31 08:35:15,641 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-10-31 08:35:15,645 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.23.Final
+2023-10-31 08:35:15,683 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:9080
+2023-10-31 08:35:15,684 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2023-10-31 08:35:15,700 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-10-31 08:35:15,704 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Postarion MS\keycloak-16.1.1\standalone\deployments
+2023-10-31 08:35:15,705 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-10-31 08:35:15,717 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-10-31 08:35:15,751 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-10-31 08:35:15,751 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-10-31 08:35:16,189 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-10-31 08:35:16,219 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:35:16,221 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:35:16,240 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-10-31 08:35:16,240 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-10-31 08:35:16,393 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started work cache from keycloak container
+2023-10-31 08:35:16,430 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-10-31 08:35:16,469 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started keys cache from keycloak container
+2023-10-31 08:35:16,469 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started users cache from keycloak container
+2023-10-31 08:35:16,469 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-10-31 08:35:16,469 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started realms cache from keycloak container
+2023-10-31 08:35:16,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-10-31 08:35:16,723 INFO  [org.keycloak.services] (ServerService Thread Pool -- 53) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-10-31 08:35:16,956 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 53) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-10-31 08:35:17,063 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-10-31 08:35:17,067 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-10-31 08:35:17,072 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-10-31 08:35:17,073 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 53) Node name: desktop-a8tdepi, Site name: null
+2023-10-31 08:35:22,422 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 53) Database info: {databaseUrl=jdbc:h2:D:\Postarion MS\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-10-31 08:35:23,177 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 53) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-10-31 08:35:23,226 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 53) HHH000412: Hibernate Core {5.3.24.Final}
+2023-10-31 08:35:23,227 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 53) HHH000206: hibernate.properties not found
+2023-10-31 08:35:23,324 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 53) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-10-31 08:35:23,416 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 53) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-31 08:35:23,444 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 53) Envers integration enabled? : true
+2023-10-31 08:35:23,626 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 53) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-10-31 08:35:23,782 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 53) HV000001: Hibernate Validator 6.0.22.Final
+2023-10-31 08:35:24,463 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 53) HHH000397: Using ASTQueryTranslatorFactory
+2023-10-31 08:35:25,355 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,356 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,357 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,359 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,360 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,360 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,361 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,361 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,362 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,363 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 53) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:35:25,422 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-10-31 08:35:25,471 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-10-31 08:35:25,496 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-31 08:35:25,498 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 11632ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-10-31 08:35:25,500 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-10-31 08:35:25,501 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-10-31 08:35:33,753 WARN  [org.keycloak.events] (default task-1) type=REFRESH_TOKEN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=192.168.1.77, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2023-10-31 08:36:26,237 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0272: Suspending server
+2023-10-31 08:36:26,239 INFO  [org.jboss.as.ejb3] (Thread-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-10-31 08:36:26,241 INFO  [org.jboss.as.server] (Thread-1) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2023-10-31 08:36:26,254 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2023-10-31 08:36:26,255 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2023-10-31 08:36:26,256 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2023-10-31 08:36:26,258 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 0.0.0.0:8443
+2023-10-31 08:36:26,260 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 67) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2023-10-31 08:36:26,269 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2023-10-31 08:36:26,269 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2023-10-31 08:36:26,270 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2023-10-31 08:36:26,275 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2023-10-31 08:36:26,275 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0003: Stopped work cache from keycloak container
+2023-10-31 08:36:26,275 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped keys cache from keycloak container
+2023-10-31 08:36:26,276 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2023-10-31 08:36:26,276 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2023-10-31 08:36:26,278 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 32ms
+2023-10-31 08:36:26,278 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2023-10-31 08:36:26,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2023-10-31 08:36:26,279 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2023-10-31 08:36:26,280 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2023-10-31 08:36:26,280 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped users cache from keycloak container
+2023-10-31 08:36:26,281 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2023-10-31 08:36:26,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 0.0.0.0:9080
+2023-10-31 08:36:26,282 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2023-10-31 08:36:26,282 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped realms cache from keycloak container
+2023-10-31 08:36:26,283 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2023-10-31 08:36:26,286 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 71) Stopping cache manager null on null
+2023-10-31 08:36:26,288 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 69) Stopping cache manager null on null
+2023-10-31 08:36:26,289 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.14.Final stopping
+2023-10-31 08:36:26,299 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) stopped in 54ms
+2023-10-31 08:37:13,433 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.0.Final
+2023-10-31 08:37:13,737 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-10-31 08:37:13,742 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-10-31 08:37:13,810 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) starting
+2023-10-31 08:37:13,811 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17.0.3.1
+	java.io.tmpdir = C:\Users\XTE-SE~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Microsoft\WindowsApps;C:\Users\XTE-SERVEUR-JEE\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\XTE-SERVEUR-JEE\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.3.1+2-LTS-6
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.3.1
+	java.version.date = 2022-04-22
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.3.1+2-LTS-6
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = 0.0.0.0
+	jboss.home.dir = D:\Postarion MS\keycloak-16.1.1
+	jboss.host.name = desktop-a8tdepi
+	jboss.http.port = 9080
+	jboss.modules.dir = D:\Postarion MS\keycloak-16.1.1\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-a8tdepi
+	jboss.qualified.host.name = desktop-a8tdepi
+	jboss.server.base.dir = D:\Postarion MS\keycloak-16.1.1\standalone
+	jboss.server.config.dir = D:\Postarion MS\keycloak-16.1.1\standalone\configuration
+	jboss.server.data.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data
+	jboss.server.deploy.dir = D:\Postarion MS\keycloak-16.1.1\standalone\data\content
+	jboss.server.log.dir = D:\Postarion MS\keycloak-16.1.1\standalone\log
+	jboss.server.name = desktop-a8tdepi
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Postarion MS\keycloak-16.1.1\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties
+	module.path = D:\Postarion MS\keycloak-16.1.1\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17.0.3.1\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Postarion MS\keycloak-16.1.1\jboss-modules.jar -mp D:\Postarion MS\keycloak-16.1.1\modules org.jboss.as.standalone -Djboss.home.dir=D:\Postarion MS\keycloak-16.1.1 -Djboss.http.port=9080 -b 0.0.0.0
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = D:\Postarion MS\keycloak-16.1.1\bin
+	user.home = C:\Users\XTE-SERVEUR-JEE
+	user.language = fr
+	user.name = XTE-SERVEUR-JEE
+	user.script = 
+	user.timezone = Africa/Lagos
+	user.variant = 
+2023-10-31 08:37:13,812 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Dorg.jboss.boot.log.file=D:\Postarion MS\keycloak-16.1.1\standalone\log\server.log -Dlogging.configuration=file:D:\Postarion MS\keycloak-16.1.1\standalone\configuration/logging.properties 
+2023-10-31 08:37:14,213 INFO  [org.wildfly.security] (ServerService Thread Pool -- 19) ELY00001: WildFly Elytron version 1.18.3.Final
+2023-10-31 08:37:14,601 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-10-31 08:37:14,611 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.5.Final
+2023-10-31 08:37:14,616 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.5.Final
+2023-10-31 08:37:14,642 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 4.7.4.Final
+2023-10-31 08:37:14,646 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 35) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-10-31 08:37:14,649 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-10-31 08:37:14,664 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 36) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-10-31 08:37:14,664 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 45) WFLYNAM0001: Activating Naming Subsystem
+2023-10-31 08:37:14,674 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 44) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-10-31 08:37:14,727 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.2.14.Final starting
+2023-10-31 08:37:14,746 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-10-31 08:37:14,749 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+2023-10-31 08:37:14,752 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 50) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2023-10-31 08:37:14,776 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2023-10-31 08:37:14,778 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-10-31 08:37:14,790 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-10-31 08:37:14,799 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY00023: KeyStore file 'D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-10-31 08:37:14,845 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 50) WFLYUT0014: Creating file handler for path 'D:\Postarion MS\keycloak-16.1.1/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-10-31 08:37:14,866 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY01084: KeyStore D:\Postarion MS\keycloak-16.1.1\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-10-31 08:37:14,936 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-10-31 08:37:14,953 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-10-31 08:37:14,953 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-10-31 08:37:14,986 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-10-31 08:37:14,987 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) Queuing requests.
+2023-10-31 08:37:14,988 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2023-10-31 08:37:14,989 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.23.Final
+2023-10-31 08:37:15,033 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 0.0.0.0:9080
+2023-10-31 08:37:15,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 0.0.0.0:8443
+2023-10-31 08:37:15,058 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2023-10-31 08:37:15,061 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Postarion MS\keycloak-16.1.1\standalone\deployments
+2023-10-31 08:37:15,070 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2023-10-31 08:37:15,102 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-10-31 08:37:15,138 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-10-31 08:37:15,138 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2023-10-31 08:37:15,549 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000128: Infinispan version: Infinispan 'Taedonggang' 12.1.7.Final
+2023-10-31 08:37:15,576 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:37:15,577 INFO  [org.infinispan.CONFIG] (MSC service thread 1-4) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2023-10-31 08:37:15,595 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 53) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2023-10-31 08:37:15,595 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 52) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-10-31 08:37:15,768 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 53) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2023-10-31 08:37:15,803 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Started work cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2023-10-31 08:37:15,802 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started sessions cache from keycloak container
+2023-10-31 08:37:15,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started keys cache from keycloak container
+2023-10-31 08:37:15,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 64) WFLYCLINF0002: Started authorization cache from keycloak container
+2023-10-31 08:37:15,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started users cache from keycloak container
+2023-10-31 08:37:15,833 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 54) WFLYCLINF0002: Started realms cache from keycloak container
+2023-10-31 08:37:15,897 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2023-10-31 08:37:16,071 INFO  [org.keycloak.services] (ServerService Thread Pool -- 61) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2023-10-31 08:37:16,285 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 61) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2023-10-31 08:37:16,445 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2023-10-31 08:37:16,450 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2023-10-31 08:37:16,455 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 61) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2023-10-31 08:37:16,456 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 61) Node name: desktop-a8tdepi, Site name: null
+2023-10-31 08:37:21,755 INFO  [org.keycloak.connections.jpa.DefaultJpaConnectionProviderFactory] (ServerService Thread Pool -- 61) Database info: {databaseUrl=jdbc:h2:D:\Postarion MS\keycloak-16.1.1\standalone\data/keycloak, databaseUser=SA, databaseProduct=H2 1.4.197 (2018-03-18), databaseDriver=H2 JDBC Driver 1.4.197 (2018-03-18)}
+2023-10-31 08:37:22,510 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 61) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2023-10-31 08:37:22,551 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 61) HHH000412: Hibernate Core {5.3.24.Final}
+2023-10-31 08:37:22,553 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 61) HHH000206: hibernate.properties not found
+2023-10-31 08:37:22,652 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 61) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2023-10-31 08:37:22,749 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 61) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-31 08:37:22,783 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 61) Envers integration enabled? : true
+2023-10-31 08:37:22,960 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 61) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2023-10-31 08:37:23,129 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 61) HV000001: Hibernate Validator 6.0.22.Final
+2023-10-31 08:37:23,759 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 61) HHH000397: Using ASTQueryTranslatorFactory
+2023-10-31 08:37:24,652 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,655 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,656 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,660 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,660 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,660 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,661 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,662 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,662 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,663 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 61) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2023-10-31 08:37:24,721 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2023-10-31 08:37:24,772 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 42) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2023-10-31 08:37:24,797 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-10-31 08:37:24,799 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 16.1.1 (WildFly Core 18.0.4.Final) started in 11581ms - Started 573 of 851 services (576 services are lazy, passive or on-demand)
+2023-10-31 08:37:24,801 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-10-31 08:37:24,802 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-10-31 08:38:02,639 WARN  [org.keycloak.events] (default task-1) type=REFRESH_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f0bdafd2-0195-4896-9c7a-2c135b104c10, ipAddress=192.168.1.77, error=invalid_token, grant_type=refresh_token, refresh_token_type=Refresh, refresh_token_id=075b1677-7329-4e82-8f8f-ea3ef23a72fa, client_auth_method=client-secret
+2023-10-31 08:38:49,535 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=192.168.1.29, error=invalid_redirect_uri, redirect_uri=http://192.168.1.77:9000/login/oauth2/code/oidc
+2023-10-31 08:39:04,218 WARN  [org.keycloak.events] (default task-1) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=192.168.1.29, error=invalid_redirect_uri, redirect_uri=http://192.168.1.77:9000/login/oauth2/code/oidc
+2023-10-31 09:37:24,510 INFO  [org.keycloak.storage.ldap.LDAPIdentityStoreRegistry] (Timer-2) Creating new LDAP Store for the LDAP storage provider: 'ldap', LDAP Configuration: {fullSyncPeriod=[3600], pagination=[true], usersDn=[o=XteUsers,dc=xtensus,dc=com], connectionPooling=[false], cachePolicy=[DEFAULT], useKerberosForPasswordAuthentication=[false], importEnabled=[true], enabled=[true], changedSyncPeriod=[3600], bindDn=[cn=admin,dc=xtensus,dc=com], usernameLDAPAttribute=[uid], lastSync=[1698741444], vendor=[other], uuidLDAPAttribute=[entryUUID], allowKerberosAuthentication=[false], connectionUrl=[ldap://localhost:389], syncRegistrations=[true], authType=[simple], debug=[false], searchScope=[1], useTruststoreSpi=[ldapsOnly], priority=[0], trustEmail=[false], userObjectClasses=[*], rdnLDAPAttribute=[uid], editMode=[UNSYNCED], validatePasswordPolicy=[false], batchSizeForSync=[1000]}, binaryAttributes: []
+2023-10-31 09:37:24,552 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@715caa9f
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 10:37:24,487 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@76e7ae07
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 11:37:24,495 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@604b94a
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 11:57:10,061 WARN  [org.keycloak.events] (default task-13) type=REFRESH_TOKEN_ERROR, realmId=google, clientId=youtube, userId=f0bdafd2-0195-4896-9c7a-2c135b104c10, ipAddress=192.168.1.77, error=invalid_token, grant_type=refresh_token, refresh_token_type=Refresh, refresh_token_id=a66aca6e-2d3a-481e-9406-4ee5e718e628, client_auth_method=client-secret
+2023-10-31 12:24:39,796 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-14) SQL Error: 23505, SQLState: 23505
+2023-10-31 12:24:39,817 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-14) Violation dindex unique ou clé primaire: {0}
+Unique index or primary key violation: {0}; SQL statement:
+insert into KEYCLOAK_GROUP (NAME, PARENT_GROUP, REALM_ID, ID) values (?, ?, ?, ?) [23505-197]
+2023-10-31 12:24:48,088 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-14) SQL Error: 23505, SQLState: 23505
+2023-10-31 12:24:48,089 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-14) Violation dindex unique ou clé primaire: {0}
+Unique index or primary key violation: {0}; SQL statement:
+insert into KEYCLOAK_GROUP (NAME, PARENT_GROUP, REALM_ID, ID) values (?, ?, ?, ?) [23505-197]
+2023-10-31 12:30:35,423 WARN  [org.keycloak.events] (default task-16) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=192.168.1.29, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2023-10-31 12:37:24,513 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@17224ae3
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 13:37:24,500 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@1f70a6cc
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 14:37:24,478 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@8c4c941
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 15:37:24,520 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@3e09014f
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 16:37:24,518 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@1cc10af3
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 17:37:24,523 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@2d0cf4ce
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 18:09:53,309 WARN  [org.keycloak.events] (default task-26) type=LOGIN_ERROR, realmId=google, clientId=null, userId=null, ipAddress=192.168.1.100, error=expired_code, restart_after_timeout=true, authSessionParentId=77b93836-9ce2-459a-8108-130f35ae036f, authSessionTabId=JTwPFTUwtUY
+2023-10-31 18:37:24,618 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@7d5e8694
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 19:37:24,508 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@4135a886
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 20:37:24,561 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@46f447a6
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 21:37:24,501 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@3feb92e8
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 22:37:24,533 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@4c94e04e
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+
+2023-10-31 23:37:24,491 ERROR [org.keycloak.services] (Timer-2) KC-SERVICES0061: Error occurred during full sync of users: org.keycloak.models.ModelException: LDAP Query failed
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:176)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPUtils.loadAllLDAPObjects(LDAPUtils.java:257)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.mappers.membership.role.RoleLDAPStorageMapper.syncDataFromFederationProviderToKeycloak(RoleLDAPStorageMapper.java:132)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.lambda$run$0(LDAPStorageProviderFactory.java:519)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory$1.run(LDAPStorageProviderFactory.java:517)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.syncMappers(LDAPStorageProviderFactory.java:509)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.LDAPStorageProviderFactory.sync(LDAPStorageProviderFactory.java:473)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:108)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2$1.call(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-model-infinispan@16.1.1//org.keycloak.cluster.infinispan.InfinispanClusterProvider.executeIfNotExecuted(InfinispanClusterProvider.java:78)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$2.run(UserStorageSyncManager.java:103)
+	at org.keycloak.keycloak-server-spi-private@16.1.1//org.keycloak.models.utils.KeycloakModelUtils.runJobInTransaction(KeycloakModelUtils.java:239)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager.syncAllUsers(UserStorageSyncManager.java:93)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.services.managers.UserStorageSyncManager$4.run(UserStorageSyncManager.java:196)
+	at org.keycloak.keycloak-services@16.1.1//org.keycloak.timer.basic.BasicTimerProvider$1.run(BasicTimerProvider.java:53)
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+	at java.base/java.util.TimerThread.run(Timer.java:516)
+Caused by: org.keycloak.models.ModelException: Querying of LDAP failed org.keycloak.storage.ldap.idm.query.internal.LDAPQuery@71f1da12
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:289)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.getResultList(LDAPQuery.java:172)
+	... 19 more
+Caused by: javax.naming.CommunicationException: localhost:389 [Root exception is java.net.ConnectException: Connection refused: connect]
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:253)
+	at java.naming/com.sun.jndi.ldap.LdapClient.<init>(LdapClient.java:137)
+	at java.naming/com.sun.jndi.ldap.LdapClient.getInstance(LdapClient.java:1616)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.connect(LdapCtx.java:2848)
+	at java.naming/com.sun.jndi.ldap.LdapCtx.<init>(LdapCtx.java:348)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxFromUrl(LdapCtxFactory.java:225)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURL(LdapCtxFactory.java:189)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getUsingURLs(LdapCtxFactory.java:243)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getLdapCtxInstance(LdapCtxFactory.java:154)
+	at java.naming/com.sun.jndi.ldap.LdapCtxFactory.getInitialContext(LdapCtxFactory.java:84)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.getDefaultInitCtx(InitialContext.java:116)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.init(InitialContext.java:101)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContext.<init>(InitialContext.java:91)
+	at org.jboss.as.naming@26.0.1.Final//org.jboss.as.naming.InitialContextFactory.getInitialContext(InitialContextFactory.java:43)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:732)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.ldap.InitialLdapContext.<init>(InitialLdapContext.java:154)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.createLdapContext(LDAPContextManager.java:80)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPContextManager.getLdapContext(LDAPContextManager.java:100)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.query.internal.LDAPQuery.initPagination(LDAPQuery.java:211)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPOperationManager.searchPaginated(LDAPOperationManager.java:293)
+	at org.keycloak.keycloak-ldap-federation@16.1.1//org.keycloak.storage.ldap.idm.store.ldap.LDAPIdentityStore.fetchQueryResults(LDAPIdentityStore.java:277)
+	... 20 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:583)
+	at java.base/java.net.Socket.<init>(Socket.java:507)
+	at java.base/java.net.Socket.<init>(Socket.java:287)
+	at java.naming/com.sun.jndi.ldap.Connection.createSocket(Connection.java:346)
+	at java.naming/com.sun.jndi.ldap.Connection.<init>(Connection.java:232)
+	... 43 more
+

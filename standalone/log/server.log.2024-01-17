@@ -1,0 +1,2 @@
+2024-01-17 17:36:08,538 WARN  [org.keycloak.events] (default task-109) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=192.168.1.29, error=invalid_redirect_uri, redirect_uri=http://192.168.1.32:9000/login/oauth2/code/oidc
+2024-01-17 17:37:22,545 WARN  [org.keycloak.events] (default task-110) type=LOGIN_ERROR, realmId=google, clientId=youtube, userId=null, ipAddress=192.168.1.29, error=invalid_redirect_uri, redirect_uri=http://192.168.1.32:9000/login/oauth2/code/oidc
